@@ -577,7 +577,23 @@ const InfiniteCanvas = () => {
             },
             onTap: (e) => { if (activeTool === 'pointer') { selectItem(item.id, e.evt?.shiftKey || false); e.cancelBubble = true; } },
             onDragStart: (e) => {
-                if (!selectedIds.includes(item.id)) selectItem(item.id);
+                // Ctrl+Drag duplication
+                if (e.evt.ctrlKey || e.evt.metaKey) {
+                    // Create duplicate at current position
+                    const duplicate = {
+                        ...item,
+                        id: uuidv4(),
+                        x: item.x,
+                        y: item.y,
+                    };
+                    addItem(duplicate);
+                    // Select and drag the duplicate
+                    selectItem(duplicate.id);
+                    // The original stays in place
+                } else {
+                    // Normal drag - select if not already selected
+                    if (!selectedIds.includes(item.id)) selectItem(item.id);
+                }
                 e.cancelBubble = true;
             },
             onDragEnd: (e) => { updateItem(item.id, { x: e.target.x(), y: e.target.y() }); },
