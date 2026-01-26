@@ -509,8 +509,7 @@ const InfiniteCanvas = () => {
                 // Selection already handled in mousedown/mouseup
                 return;
             }
-            setTool('pointer');
-            selectItem(newId);
+            // Other tools don't use click anymore (only drag)
         }
     }
 };
