@@ -8,7 +8,7 @@
     },
     "package": {
         "productName": "infinite-board",
-        "version": "0.1.0"
+        "version": "0.2.0"
     },
     "tauri": {
         "allowlist": {
@@ -21,13 +21,41 @@
                 "all": true,
                 "save": true,
                 "open": true
+            },
+            "fs": {
+                "all": true,
+                "scope": [
+                    "$HOME/**",
+                    "$DESKTOP/**",
+                    "$DOWNLOADS/**",
+                    "C:\\Users\\**"
+                ]
+            },
+            "protocol": {
+                "all": true,
+                "asset": true,
+                "assetScope": [
+                    "**"
+                ]
+            },
+            "path": {
+                "all": true
             }
         },
         "bundle": {
             "active": true,
-            "targets": "all",
+            "targets": [
+                "msi",
+                "nsis"
+            ],
             "identifier": "com.infinite-board.dev",
-            "icon": []
+            "icon": [
+                "icons/32x32.png",
+                "icons/128x128.png",
+                "icons/128x128@2x.png",
+                "icons/icon.icns",
+                "icons/icon.ico"
+            ]
         },
         "security": {
             "csp": null
@@ -35,10 +63,11 @@
         "windows": [
             {
                 "fullscreen": false,
-                "height": 600,
                 "resizable": true,
-                "title": "Infinite Board",
-                "width": 800
+                "title": "InfiniteBoard",
+                "width": 1200,
+                "height": 800,
+                "fileDropEnabled": true
             }
         ]
     }

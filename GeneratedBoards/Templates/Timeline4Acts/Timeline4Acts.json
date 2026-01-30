@@ -1,0 +1,412 @@
+{
+    "scale": 0.5,
+    "position": {
+        "x": 100,
+        "y": 100
+    },
+    "gridConfig": {
+        "enabled": true,
+        "visible": true,
+        "type": "lines",
+        "spacing": 50,
+        "color": "#444444",
+        "opacity": 0.3
+    },
+    "backgroundConfig": {
+        "type": "color",
+        "color": "#1a1a1a"
+    },
+    "items": [
+        {
+            "id": "title-main",
+            "type": "text",
+            "x": 0,
+            "y": -300,
+            "content": "TIMELINE TEMPLATE - 4 ACTS (4x4)",
+            "fontSize": 80,
+            "fill": "#ffffff",
+            "width": 2200,
+            "align": "left"
+        },
+        {
+            "id": "act-1-title",
+            "type": "text",
+            "x": 0,
+            "y": -100,
+            "content": "ACT I: SETUP",
+            "fontSize": 40,
+            "fill": "#FFD700",
+            "width": 400,
+            "align": "left"
+        },
+        {
+            "id": "a1-s1-img",
+            "type": "rect",
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a1-s1-txt",
+            "type": "text",
+            "x": 0,
+            "y": 420,
+            "width": 400,
+            "content": "Act 1 - Scene 1 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a1-s2-img",
+            "type": "rect",
+            "x": 0,
+            "y": 600,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a1-s2-txt",
+            "type": "text",
+            "x": 0,
+            "y": 1020,
+            "width": 400,
+            "content": "Act 1 - Scene 2 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a1-s3-img",
+            "type": "rect",
+            "x": 0,
+            "y": 1200,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a1-s3-txt",
+            "type": "text",
+            "x": 0,
+            "y": 1620,
+            "width": 400,
+            "content": "Act 1 - Scene 3 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a1-s4-img",
+            "type": "rect",
+            "x": 0,
+            "y": 1800,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a1-s4-txt",
+            "type": "text",
+            "x": 0,
+            "y": 2220,
+            "width": 400,
+            "content": "Act 1 - Scene 4 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "act-2-title",
+            "type": "text",
+            "x": 600,
+            "y": -100,
+            "content": "ACT II: CONFRONTATION",
+            "fontSize": 40,
+            "fill": "#FFD700",
+            "width": 400,
+            "align": "left"
+        },
+        {
+            "id": "a2-s1-img",
+            "type": "rect",
+            "x": 600,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a2-s1-txt",
+            "type": "text",
+            "x": 600,
+            "y": 420,
+            "width": 400,
+            "content": "Act 2 - Scene 1 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a2-s2-img",
+            "type": "rect",
+            "x": 600,
+            "y": 600,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a2-s2-txt",
+            "type": "text",
+            "x": 600,
+            "y": 1020,
+            "width": 400,
+            "content": "Act 2 - Scene 2 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a2-s3-img",
+            "type": "rect",
+            "x": 600,
+            "y": 1200,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a2-s3-txt",
+            "type": "text",
+            "x": 600,
+            "y": 1620,
+            "width": 400,
+            "content": "Act 2 - Scene 3 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a2-s4-img",
+            "type": "rect",
+            "x": 600,
+            "y": 1800,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a2-s4-txt",
+            "type": "text",
+            "x": 600,
+            "y": 2220,
+            "width": 400,
+            "content": "Act 2 - Scene 4 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "act-3-title",
+            "type": "text",
+            "x": 1200,
+            "y": -100,
+            "content": "ACT III: RESOLUTION",
+            "fontSize": 40,
+            "fill": "#FFD700",
+            "width": 400,
+            "align": "left"
+        },
+        {
+            "id": "a3-s1-img",
+            "type": "rect",
+            "x": 1200,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a3-s1-txt",
+            "type": "text",
+            "x": 1200,
+            "y": 420,
+            "width": 400,
+            "content": "Act 3 - Scene 1 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a3-s2-img",
+            "type": "rect",
+            "x": 1200,
+            "y": 600,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a3-s2-txt",
+            "type": "text",
+            "x": 1200,
+            "y": 1020,
+            "width": 400,
+            "content": "Act 3 - Scene 2 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a3-s3-img",
+            "type": "rect",
+            "x": 1200,
+            "y": 1200,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a3-s3-txt",
+            "type": "text",
+            "x": 1200,
+            "y": 1620,
+            "width": 400,
+            "content": "Act 3 - Scene 3 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a3-s4-img",
+            "type": "rect",
+            "x": 1200,
+            "y": 1800,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a3-s4-txt",
+            "type": "text",
+            "x": 1200,
+            "y": 2220,
+            "width": 400,
+            "content": "Act 3 - Scene 4 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "act-4-title",
+            "type": "text",
+            "x": 1800,
+            "y": -100,
+            "content": "ACT IV: AFTERMATH",
+            "fontSize": 40,
+            "fill": "#FFD700",
+            "width": 400,
+            "align": "left"
+        },
+        {
+            "id": "a4-s1-img",
+            "type": "rect",
+            "x": 1800,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a4-s1-txt",
+            "type": "text",
+            "x": 1800,
+            "y": 420,
+            "width": 400,
+            "content": "Act 4 - Scene 1 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a4-s2-img",
+            "type": "rect",
+            "x": 1800,
+            "y": 600,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a4-s2-txt",
+            "type": "text",
+            "x": 1800,
+            "y": 1020,
+            "width": 400,
+            "content": "Act 4 - Scene 2 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a4-s3-img",
+            "type": "rect",
+            "x": 1800,
+            "y": 1200,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a4-s3-txt",
+            "type": "text",
+            "x": 1800,
+            "y": 1620,
+            "width": 400,
+            "content": "Act 4 - Scene 3 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        },
+        {
+            "id": "a4-s4-img",
+            "type": "rect",
+            "x": 1800,
+            "y": 1800,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "a4-s4-txt",
+            "type": "text",
+            "x": 1800,
+            "y": 2220,
+            "width": 400,
+            "content": "Act 4 - Scene 4 Description",
+            "fontSize": 20,
+            "fill": "#ccc"
+        }
+    ]
+}

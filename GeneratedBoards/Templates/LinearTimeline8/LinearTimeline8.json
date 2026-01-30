@@ -1,0 +1,208 @@
+{
+    "scale": 0.5,
+    "position": {
+        "x": 100,
+        "y": 100
+    },
+    "gridConfig": {
+        "enabled": true,
+        "visible": true,
+        "type": "lines",
+        "spacing": 50,
+        "color": "#444444",
+        "opacity": 0.3
+    },
+    "backgroundConfig": {
+        "type": "color",
+        "color": "#1a1a1a"
+    },
+    "items": [
+        {
+            "id": "title-main",
+            "type": "text",
+            "x": 0,
+            "y": -300,
+            "content": "LINEAR TIMELINE (8 STEPS)",
+            "fontSize": 80,
+            "fill": "#ffffff",
+            "width": 4000,
+            "align": "left"
+        },
+        {
+            "id": "panel-1-img",
+            "type": "rect",
+            "x": 0,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-1-txt",
+            "type": "text",
+            "x": 0,
+            "y": 420,
+            "width": 400,
+            "content": "Step 1",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-2-img",
+            "type": "rect",
+            "x": 600,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-2-txt",
+            "type": "text",
+            "x": 600,
+            "y": 420,
+            "width": 400,
+            "content": "Step 2",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-3-img",
+            "type": "rect",
+            "x": 1200,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-3-txt",
+            "type": "text",
+            "x": 1200,
+            "y": 420,
+            "width": 400,
+            "content": "Step 3",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-4-img",
+            "type": "rect",
+            "x": 1800,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-4-txt",
+            "type": "text",
+            "x": 1800,
+            "y": 420,
+            "width": 400,
+            "content": "Step 4",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-5-img",
+            "type": "rect",
+            "x": 2400,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-5-txt",
+            "type": "text",
+            "x": 2400,
+            "y": 420,
+            "width": 400,
+            "content": "Step 5",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-6-img",
+            "type": "rect",
+            "x": 3000,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-6-txt",
+            "type": "text",
+            "x": 3000,
+            "y": 420,
+            "width": 400,
+            "content": "Step 6",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-7-img",
+            "type": "rect",
+            "x": 3600,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-7-txt",
+            "type": "text",
+            "x": 3600,
+            "y": 420,
+            "width": 400,
+            "content": "Step 7",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        },
+        {
+            "id": "panel-8-img",
+            "type": "rect",
+            "x": 4200,
+            "y": 0,
+            "width": 400,
+            "height": 400,
+            "fill": "#252525",
+            "stroke": "#555",
+            "strokeWidth": 2
+        },
+        {
+            "id": "panel-8-txt",
+            "type": "text",
+            "x": 4200,
+            "y": 420,
+            "width": 400,
+            "content": "Step 8",
+            "fontSize": 24,
+            "fill": "#ccc",
+            "align": "center"
+        }
+    ]
+}

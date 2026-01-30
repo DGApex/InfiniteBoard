@@ -61,7 +61,6 @@ export const exportToImage = async (layer) => {
 
         if (filePath) {
             await writeBinaryFile(filePath, binaryData);
-            console.log('Exported successfully to', filePath);
         }
 
     } catch (error) {
